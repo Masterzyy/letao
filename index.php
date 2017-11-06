@@ -3,10 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>乐淘 - 后台管理</title>
-    <link rel="stylesheet" href="/public/assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/public/assets/font-awesome/css/font-awesome.css">
-    <link rel="stylesheet" href="/public/assets/nprogress/nprogress.css">
-    <link rel="stylesheet" href="/public/css/index.css">
+    <?php include './common/style.html' ?>
 </head>
 <body>
     
@@ -55,7 +52,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="./goods_list.html">
+                    <a href="./goods_list.php">
                         <i class="fa fa-cubes pull-left"></i>
                         商品管理
                     </a>
@@ -134,8 +131,7 @@
         </div>
     </div>
     
-    <script src="/public/js/require.js"></script>
-    <script src="/public/js/config.js"></script>
+   <?php include './common/script.html' ?>
     <script>
 
         
