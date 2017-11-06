@@ -27,7 +27,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="./user_list.html">
+                    <a href="./user_list.php">
                         <i class="fa fa-group"></i>
                         用户管理
                     </a>

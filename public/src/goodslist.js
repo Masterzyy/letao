@@ -18,7 +18,9 @@ define(['jquery','template'], function($, template) {
         },
         success:function(info){
             var total=info.total;
+            console.log(total);
             var pageLen=Math.ceil(total/size);
+            console.log(pageLen);
             var html=template('tpl',info);
 
             var pagehtml=template('page',{
