@@ -1,6 +1,7 @@
 define([
     'jquery',
-    'template'
+    'template',
+    './utils'
 ], function($, template) {
     $.ajax({
         url:'/api/user/queryUser',
