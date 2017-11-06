@@ -22,7 +22,7 @@
                     <li class="active">用户列表</li>
                 </ol>
                 <div class="page-title">
-                    <a href="./user_add.html" class="btn btn-success btn-sm pull-right">添加用户</a>
+                    <a href="./user_add.php" class="btn btn-success btn-sm pull-right">添加用户</a>
                 </div>
                 <div class="panel panel-default">
                     <div class="panel-body">
